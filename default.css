@@ -1,0 +1,256 @@
+html, body {
+	padding: 0!important;
+	margin: 0!important;
+}
+header {
+	background-color: #34495e;
+	height: 100px;
+	width: 100%;
+	float: left;
+	position: relative;
+	padding: 10px 0;
+	margin-top: -30px;
+}
+
+div.brand {
+	margin-left: 10%;
+	float: left;
+	position: relative;
+}
+
+div.brand > p {
+	font-size: 2.5em;
+	color: #ecf0f1;
+	text-transform: uppercase;
+}
+
+nav {
+	
+}
+nav > ul.navList {
+	float: left;
+  position: absolute;
+  top: 40px;
+  margin-left: 10%;
+  right: 40px;
+}
+
+nav > ul.navList > li {
+	float: left;
+	padding-right: 30px;
+	list-style: none;
+}
+
+nav > ul.navList > li > a {
+	text-decoration: none;
+  color: #7f8c8d;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+nav > ul.navList > li > a:hover {
+	color: #ecf0f1;
+}
+
+#main {
+	background-color: #1abc9c;
+	height: 100vh;
+	float: left;
+	position: relative;
+	width: 100%;
+	padding-top: 40px;
+}
+
+figure#imgHolder {
+	width: 300px;
+	height: 350px;
+	text-align: center;
+	background-image: url('img/mohawk.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	background-position-y: -45px;
+	margin: 0 auto;
+}
+
+div#imageText {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+p.greeting {
+	color: #ecf0f1;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+p.subGreeting {
+	color: #ecf0f1;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+#portfolio {
+	background-color: #fff;
+	width: 100%;
+	float: left;
+	position: relative;
+	padding-bottom: 40px;
+}
+
+#subHeading p {
+	font-size: 3em;
+	color: #2c3e50;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+div.project.one {
+	background-color: #c0392b;
+}
+
+div.project.two {
+	background-color: #3498db;
+}
+
+div.project.three {
+	background-color: #7f8c8d;
+}
+
+div.project.four {
+	background-color: #8e44ad;
+}
+
+div.project.five {
+	background-color: #f39c12;
+}
+
+div.project.six {
+	background-color: #2ecc71;
+}
+
+div.project {
+	float: left;
+	position: relative;
+	width: 30%;
+	margin-left: 2.4%;
+	text-align: center;
+	background-color: #e67e22;
+	margin-bottom: 25px;
+}
+
+div#contact {
+	float: left;
+	position: relative;
+	background-color: #1abc9c;
+	width: 100%;
+	height: 100vh;
+	padding: 60px 0;
+}
+
+div#contact p {
+	font-size: 3em;
+	color: #ecf0f1;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+div#contact form {
+	width: 700px;
+	margin: 0 auto;
+}
+
+div#contact form input {
+	width: 100%;
+	padding: 30px 0;
+	border-left: 1px solid #1abc9c;
+	border-right: 1px solid #1abc9c;
+	border-top: 1px solid #ecf0f1;
+	border-bottom: 1px solid #ecf0f1;
+	margin-bottom: 10px;
+	font-size: 1.3em;
+	color: #ecf0f1;
+	background-color: #1abc9c;
+}
+
+div#contact form input:nth-of-type(2), div#contact form input:nth-of-type(3), div#contact form input:nth-of-type(4) {
+	border-top: none;
+}
+
+div#contact form button {
+	background-color: #3498db;
+	padding: 20px 30px;
+	border: 1px solid #3498db;
+	border-radius: 10px;
+	color: #ecf0f1;
+	font-size: 1em;
+}
+
+div#contact form button:hover {
+	cursor: pointer;
+	background-color: #8e44ad;
+	border: 1px solid #8e44ad;
+	color: #fff;
+}
+
+footer {
+	clear: both;
+	height: 200px;
+	background-color: #34495e;
+	padding: 30px 0;
+	color: #ecf0f1;
+	width: 100%;
+}
+
+#location {
+	float: left;
+	margin-left: 25%;
+	text-align: center;
+}
+
+#location h3 {
+	font-size: 2.5em;
+}
+ 
+#socialMedia {
+	float: right;
+	margin-right: 25%;
+	text-align: center;
+}
+
+#socialMedia h3 {
+	font-size: 2.5em;
+}
+
+#socialMedia a {
+	padding-right: 20px;
+}
+
+.fa-twitter, .fa-linkedin, .fa-github, .fa-google-plus {
+	color: #ecf0f1;
+}
+
+.fa-twitter:hover {
+	color: #3498db;
+}
+
+.fa-linkedin:hover {
+	color: #000;
+}
+
+.fa-google-plus:hover {
+	color: #c0392b;
+}
+
+.fa-github:hover {
+	color: #95a5a6;
+}
+
+
+
+
+
+
+
+
