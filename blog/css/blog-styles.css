@@ -58,18 +58,18 @@ nav > ul.navList > li > a:hover {
 	float: left;
 	position: relative;
 	width: 100%;
-	padding-top: 40px;
+	padding-top: 10px;
 }
 
 figure#imgHolder {
 	width: 160px;
 	height: 160px;
 	text-align: center;
-	background-image: url('img/mohawk.png');
+	background-image: url('../../img/brooklyn.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 50%;
-	background-position-y: -45px;
+	background-position-x: -20px;
 	margin: 0 auto;
 }
 
@@ -91,12 +91,45 @@ p.subGreeting {
 	text-transform: uppercase;
 }
 
-#portfolio {
-	background-color: #fff;
+#blog-list {
+	background: #f9f9f9;
 	width: 100%;
+	height: 100%;
 	float: left;
 	position: relative;
-	padding-bottom: 40px;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.blog-section-heading {
+	font-size: 4.5em;
+	color: #34495e;
+}
+
+div.blog-item {
+	float: left;
+	position: relative;
+	width: 70%;
+	margin-left: 15%;
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+	margin-bottom: 50px;
+}
+
+.blog-item:hover {
+	box-shadow: 0 5px 10px rgba(52, 73, 94, 0.8);
+	cursor: pointer;
+}
+
+.blog-link {
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #000;
+}
+
+.blog-link:hover p{
+	color: #c0392b;
 }
 
 #subHeading p {
@@ -248,13 +281,33 @@ footer {
 }
 
 .fa-angle-down {
-	color: #ecf0f1;
+	color: #34495e;
 }
 
 .fa-angle-down:hover {
-	color: #34495e;
 	cursor: pointer;
+	color: #95a5a6;
 }
+
+.fa-pencil {
+	color: #7f8c8d;
+}
+
+.fa-database {
+	color: #2980b9;
+}
+
+.fa-cutlery {
+	color: #f39c12;
+}
+
+.fa-github-alt {
+	color: #8e44ad;
+}
+
+
+
+
 
 
 
