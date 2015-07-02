@@ -1,0 +1,60 @@
+html {background-image: url("https://b.thumbs.redditmedia.com/W9NFuXkts3mJduo0S5qEiy-4Ts2Y5ktATV_Vq6DQRLg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    float: left; 
+    height: 150px;
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.column-1 {
+    background-color: rgba(127, 187, 230, 0.4);
+    float: left;
+    width: 47%;
+    min-height: 1200px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.column-1 > article > ul {
+    list-style: none;
+}
+
+.column-2 {
+    background-color: rgba(127, 187, 230, 0.4);
+    float: right;
+    width: 47%;
+    min-height: 1200px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    height: 150px; 
+    margin-top: 50px;
+}
+
+h1 {font-family: 'Lobster', cursive;
+    color: #7cbae6;
+}
+
+h2 {font-family: 'Shadows Into Light', cursive;
+}
+
+p {font-family: 'Lato', sans-serif;
+    color: #ac5c51;
+}
