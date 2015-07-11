@@ -29,10 +29,10 @@ nav {
 }
 nav > ul.navList {
 	float: left;
-  position: absolute;
-  top: 40px;
-  margin-left: 10%;
-  right: 40px;
+  	position: absolute;
+  	top: 40px;
+  	margin-left: 10%;
+  	right: 40px;
 }
 
 nav > ul.navList > li {
@@ -43,9 +43,9 @@ nav > ul.navList > li {
 
 nav > ul.navList > li > a {
 	text-decoration: none;
-  color: #7f8c8d;
-  font-size: 1.5em;
-  text-transform: uppercase;
+  	color: #7f8c8d;
+  	font-size: 1.5em;
+  	text-transform: uppercase;
 }
 
 nav > ul.navList > li > a:hover {
@@ -207,6 +207,7 @@ footer {
 	float: left;
 	margin-left: 25%;
 	text-align: center;
+	margin-bottom: 30px;
 }
 
 #location h3 {
@@ -217,6 +218,7 @@ footer {
 	float: right;
 	margin-right: 25%;
 	text-align: center;
+	margin-bottom: 30px;
 }
 
 #socialMedia h3 {
@@ -256,6 +258,15 @@ footer {
 	cursor: pointer;
 }
 
+#bottomStuff {
+	clear: both; 
+	text-align: center;
+}
+
+#bottomStuff a {
+	color: #ecf0f1;
+	text-decoration: none;
+}
 
 
 

@@ -309,7 +309,15 @@ footer {
 	color: #c0392b;
 }
 
+#bottomStuff {
+	clear: both; 
+	text-align: center;
+}
 
+#bottomStuff a {
+	color: #c0392b;
+	text-decoration: none;
+}
 
 
 

@@ -9,16 +9,14 @@
 </head>
 <body>
 
-	<header>
+	<header name="nav">
 		<div class="brand">
 			<p>Arthur's Blog</p>
 		</div>
 		<nav>
 			<ul class="navList">
-				<li><a href="#" class="navLinks">About</a></li>
-				<li><a href="#" class="navLinks">Portfolio</a></li>
-				<li><a href="#" class="navLinks">Contact</a></li>
 				<li><a href="../index.html" class="navLinks">Home</a></li>
+				<li><a href="#posts" class="navLinks">Posts</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -28,11 +26,11 @@
 		<div id="imageText">
 			<p class="greeting">Welcome To My BlogSpot!</p>
 			<p class="subGreeting">Here's the most recent posts from your's truly...</p>
-			<i class="fa fa-angle-down fa-5x"></i>
+			<a href="#posts"><i class="fa fa-angle-down fa-5x"></i></a>
 		</div>
 	</main>
 
-	<div id="blog-list">
+	<div id="blog-list" name="posts">
 		<h1 class="blog-section-heading">Blog List</h1>
 
 		<div class="blog-item">
@@ -80,7 +78,11 @@
 			</a>
 		</div>
 
+		<div id="bottomStuff"><a href="#nav">Back To Top</a></div>
+
 	</div>
 
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="../script.js"></script>
 </body>
 </html>
