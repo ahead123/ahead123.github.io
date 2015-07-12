@@ -33,8 +33,14 @@ $(document).ready(function(){
       $('div#contact').find('form').hide();
       var name = $('div#contact').find('form input#name').val();
       $('div#contact').css('height', '300px');
-      $('#mail-greeting').text(name);
-      $('#thanks').show('slow');
+      if(name !== "Name"){
+         $('#mail-greeting').text(name);
+         $('#thanks').show('slow');
+      } else {
+        $('#mail-greeting').hide();
+        $('#thanks').show('slow');
+      }
+      
     }
   });
 
