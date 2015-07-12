@@ -1,34 +1,67 @@
-
 <!DOCTYPE html>
+<html>
 <head>
-  <title>Your page title here</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+  <title>Get With Git</title>
 </head>
+<body>
 
-<main>
-  <h1>Get With Git</h1>
-  <h2>The beauty of version control</h2>
-  <h4>June 13, 2015</h4>
-
-  
+  <header>
+    <div class="brand">
+      <h3>Arthur's Blog</h3>
+    </div>
+    <nav>
+      <ul class="navList">
+        <li><a href="#" class="navLinks">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
  
+ <main>
+  <h1>Get With Git | The Beauty of Version Control</h1>
+  <figure>
+    <img src="../img/mohawk.png" height="50" width="50" alt="mohawk pic" style="border-radius: 50%;">
+  </figure>
+  <p class="byLine">By: Arthur Head on June 13, 2015</p>
+ </main>
+
+ <section class="postPic">
+  <figure>
+    <img src="img/git.png" width="960" height="350" alt="git">
+  </figure>
+ </section>
+
+ <section class="postBody">
+ <p>
+     <!-- What are the benefits of version control? -->
+     Git is version control. Version control is the awesome concept of being able to continuously write code, make changes, and always have the option to go back in time to a previous version. In a production - team environment, where many different developers are working collaboritively, it's essential to have a way to keep track of everyone's separate pieces, also known as branches, and that can later be merged back into one master version.
+ </p>
+ <p>
+     <!-- How does git help you keep track of changes? -->
+     Git keeps track of changes by saving snapshots of files, also known as commits. Once a git commit is recorded, git assigns a unique ID to this commit. A developer can run the command git log to see all the previous commit IDs and messages. Going back to a certain version is as simple as specifying git checkout and the ID that you'd like to revert back to. 
+ </p>
+ <p>
+    <!-- Why use GitHub to store your code? -->
+    GitHub is like the FaceBook for developers and code. GitHub is the remote server that hosts code live on the internet that also lives on a local machine. By running the command git push, your code will leave your little protected local environment and now be available to the world in a public repository on GitHub. GitHub is the home of tons of open source code, that anyone can use, and make changes to as they see fit.
+ </p>
+
+  <a href="blog-posts.html">Back to Blog Homepage</a>
   
+ </section>
 
-  <section>
-    <p>
-        <!-- What are the benefits of version control? -->
-        Git is version control. Version control is the awesome concept of being able to continuously write code, make changes, and always have the option to go back in time to a previous version. In a production - team environment, where many different developers are working collaboritively, it's essential to have a way to keep track of everyone's separate pieces, also known as branches, and that can later be merged back into one master version.
-    </p>
-    <p>
-        <!-- How does git help you keep track of changes? -->
-        Git keeps track of changes by saving snapshots of files, also known as commits. Once a git commit is recorded, git assigns a unique ID to this commit. A developer can run the command git log to see all the previous commit IDs and messages. Going back to a certain version is as simple as specifying git checkout and the ID that you'd like to revert back to. 
-    </p>
-    <p>
-       <!-- Why use GitHub to store your code? -->
-       GitHub is like the FaceBook for developers and code. GitHub is the remote server that hosts code live on the internet that also lives on a local machine. By running the command git push, your code will leave your little protected local environment and now be available to the world in a public repository on GitHub. GitHub is the home of tons of open source code, that anyone can use, and make changes to as they see fit.
-    </p>
+  <footer>
+    <div id="location">
+      <h3>Location</h3>
+      <p>New York City</p>
+      <p>Phone | Email</p>
+    </div>
+    <div id="socialMedia">
+      <a href="#">Twitter</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+      <a href="#">Google+</a> 
+    </div>
+  </footer>
 
-      <!-- copy and paste as many sections as you want to add paragraphs -->
-  </section>
-</main>
+
+</body>
+</html>
