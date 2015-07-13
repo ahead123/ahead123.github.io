@@ -1,9 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400|Roboto);
+
 html, body {
 	padding: 0!important;
 	margin: 0!important;
 }
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+div.container > main {
+	float: left;
+	margin-top: 25px;
+	position: relative;
+}
+
+div.container > main > h1 {
+	font-size: 2.5em;
+}
+
 header {
 	background-color: #34495e;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 	height: 100px;
 	width: 100%;
 	float: left;
@@ -13,7 +33,7 @@ header {
 }
 
 div.brand {
-	margin-left: 10%;
+	margin-left: 5%;
 	float: left;
 	position: relative;
 }
@@ -24,9 +44,6 @@ div.brand > p {
 	text-transform: uppercase;
 }
 
-nav {
-	
-}
 nav > ul.navList {
 	float: left;
   position: absolute;
@@ -59,6 +76,11 @@ nav > ul.navList > li > a:hover {
 	position: relative;
 	width: 100%;
 	padding-top: 40px;
+}
+
+main > h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
 }
 
 figure#imgHolder {
@@ -137,6 +159,36 @@ div.blog-item {
 	color: #2c3e50;
 	text-transform: uppercase;
 	text-align: center;
+}
+
+section {
+	float: left;
+}
+
+section.postBody {
+	width: 100%;
+	margin: 0 auto;
+}
+
+section.postBody > p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	line-height: 32px;
+	font-size: 19px;
+}
+
+section.postPic > figure {
+	margin-left: 0px;
+}
+
+main > p.byLine {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+main > p.byLine > span {
+	color: #1abc9c;
 }
 
 div.project.one {

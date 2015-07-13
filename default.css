@@ -4,6 +4,7 @@ html, body {
 }
 header {
 	background-color: #34495e;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 	height: 100px;
 	width: 100%;
 	float: left;
