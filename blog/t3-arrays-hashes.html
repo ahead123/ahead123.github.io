@@ -40,25 +40,27 @@
 	<p><a href="http://ruby-doc.org/core-2.2.0/Array.html">Arrays</a> are ordered, integer-indexed collections of any object. The index of an array starts at 0 and not 1 like you would naturally think. Arrays do have a length property though, and it actual represents the length of the array starting at 1. Arrays can consist of any object, so that means you could have an array of strings, numbers, or even an array of arrays. The proper way to declare an array is to assign it a variable name and surround the actual array in square brackets like this: <code>my_array = [1,2,3,4,"arthur","head",5,6,7,8]</code>. In this example the first element in the array, the number 1, is actually at index 0. To access an element in an array you just simply reference it's index like this: <code>my_array[0]</code> which would return the number 1. To access each element in the array you can use iteration. Iterating over an array is a nifty way to access each element without having to manually reference each index.</p>
 
 	<p>A <a href="http://ruby-doc.org/core-2.2.2/Hash.html">Hash</a> is a dictionary-like collection of unique keys and values. Hashes are not ordered by integer index like Arrays, and instead use a key that can consist of any object to reference a particular value. Hashes can be created a couple different ways. You can use the new method like this: <code>new_hash = Hash.new</code>. The .new is the built in Hash method that instatiates a new Hash assigned to the variable name new_hash. A hash can also be created using the implicit form which looks a bit different: <code>newer_hash = {"first_name" => "Arthur", "last_name" => "Arthur"}</code>. To access a value in a hash, simply reference the key like this: <code>new_hash["first_name"]</code>.</p>
-
-
-	<a href="blog-posts.html">Back to Blog Homepage</a>
 	
  </section>
 
- 	<footer>
-		<div id="location">
-			<h3>Location</h3>
-			<p>New York City</p>
-			<p>310-531-6879 | coderart@outlook.com</p>
-		</div>
-		<div id="socialMedia">
-			<a href="#">Twitter</a>
-			<a href="#">LinkedIn</a>
-			<a href="#">GitHub</a>
-			<a href="#">Google+</a>	
-		</div>
-	</footer>
+ 	<footer name="socialMedia">
+    <div id="location">
+      <h3>Location</h3>
+      <p>New York City |
+      310-531-6879 | coderart@outlook.com</p>
+    </div>
+    <div id="socialMedia">
+      <h3>Social Media</h3>
+      <a href="http://www.twitter.com/ahead123"><i class="fa fa-twitter fa-2x"></i></a>
+      <a href="http://www.linkedin.com/in/arthurhead"><i class="fa fa-linkedin fa-2x"></i></a>
+      <a href="http://www.github.com/ahead123"><i class="fa fa-github fa-2x"></i></a>
+      <a href="https://plus.google.com/+ArthurHead/about"><i class="fa fa-google-plus fa-2x"></i></a> 
+    </div>
+    <div id="bottomStuff"><a href="#nav"><p>back to top<br><i class="fa fa-angle-up fa-1x"></i></p></a></div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="../script.js"></script>
 
 
 </body>
