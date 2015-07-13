@@ -4,11 +4,13 @@
 html, body {
 	padding: 0!important;
 	margin: 0!important;
+	background-color: #f9f9f9;
 }
 
 .container {
 	width: 90%;
 	margin: 0 auto;
+	background-color: #fff;
 }
 
 div.container > main {
