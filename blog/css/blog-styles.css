@@ -381,7 +381,22 @@ footer {
 	text-decoration: none;
 }
 
+@media all and (max-width: 1200px){
 
+	footer {
+		height: 100%!important;
+	}
+
+	#location {
+		float: none!important;
+		margin-left: 0px!important;
+	}
+
+	#socialMedia {
+		float: none!important;
+		margin-right: 0px!important;
+	}
+}
 
 
 
