@@ -304,7 +304,7 @@ footer {
 
 }
 
-@media all and (max-width: 1100px) {
+@media all and (max-width: 1024px) {
 
 	div.brand {
 		margin-left: 0!important;
@@ -332,11 +332,6 @@ footer {
 	header {
 		height: 100%!important;
 	}
-
-
-}
-
-@media all and (max-width: 800px){
 
 	div#contact form {
 		width: 90%!important;
@@ -378,6 +373,9 @@ footer {
 		width: 90%!important;
 	}
 
+
 }
+
+
 
 
