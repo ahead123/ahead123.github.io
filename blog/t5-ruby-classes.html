@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ruby Classes</title>
+  <link rel="stylesheet" type="text/css" href="css/blog-styles.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="http://faviconist.com/icons/2cdfe3c3344a92d526dc0310577ca396/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+ <header name="nav">
+  <div class="brand">
+    <p>Arthur's Blog</p>
+  </div>
+  <nav>
+    <ul class="navList">
+      <li><a href="blog-posts.html" class="navLinks">Blog</a></li>
+    </ul>
+  </nav>
+ </header>
+
+<div class="container">
+ <main>
+ 	<h1>Ruby Classes</h1>
+ 	<figure>
+ 		<img src="../img/mohawk.png" height="50" width="50" alt="mohawk pic" style="border-radius: 50%;">
+ 	</figure>
+ 	<p class="byLine">By: <span>Arthur Head</span> on July 20, 2015</p>
+ </main>
+
+ <section class="postPic">
+ 	<figure>
+ 		<img src="img/ruby_class1.png" width="100%" height="auto" alt="enumberable">
+ 	</figure>
+ </section>
+
+ <section class="postBody">
+ 	<p>Ruby provides a way to group many methods into one happy family. The way to do this is by creating a Class. A Ruby Class is simply a way to bundle behaviors(methods) and create objects that can then share these behaviors. A common method in a class is an initialize method. The initalize method is used to set the initial action that takes place when an instance of a Class is created or initialized. In the example above, the initialize method takes two parameters upon inititialization: name, and age. If we tried to create an instance of this class without providing a name and age, we would get an error.</p>
+
+	<p>Classes also contain instance variables. Instance variables are identifiable by the @ sign that precedes them. Instance varaiables provide a way to store values between each instance of a class. So everytime we create a new Person the different values, and ages for each Person will be stored in the @name, and @age instance varaibles. So this gives us a way to keep track of many people and many ages, without overwriting the values. The attr_accessor above is a Ruby Module that allows us to access (read, and change) the values of age and name. So after we create a Person, we can later go back and update the person's age and name if need be, using the attr_accessor module.</p>
+
+	<p>So let's take a look at what happens when we create a new instance of the Person class:</p>
+
+	<p>
+    First we create a new instance of the Person Class by writing Person.new and passing in the required name and age parameters. We also set this instance equal to a variable so we can recall it later
+    <img src="img/ruby_class_irb_step1.png" width="100%" height="auto">
+  </p>
+
+  <p>
+    Then we call the method introcude on our new person. Since it belongs to the Person Class it can use
+    the method introduce.
+    <img src="img/ruby_class_irb_step2.png" width="100%" height="auto">
+  </p>
+
+	<p>
+    The we call the other method in our Person Class, meet_someone_new. Again since this object belongs to
+    the person class it can access and use all the methods in the Class.
+    <img src="img/ruby_class_irb_step3.png" width="100%" height="auto">
+  </p>
+
+  <p>
+    Now since we used the attr_accessor module to read and write the values of name and age, we can simply
+    use the following dot notation syntax to update the age:
+    <img src="img/ruby_class_irb_step4.png" width="100%" height="auto">
+  </p>
+
+  <p>
+    And update the name of our object. 
+    <img src="img/ruby_class_irb_step5.png" width="100%" height="auto">
+  </p>
+
+ </section>
+</div>
+
+ 	<footer name="socialMedia">
+    <div id="location">
+      <h3>Location</h3>
+      <p>New York City |
+      310-531-6879 | coderart@outlook.com</p>
+    </div>
+    <div id="socialMedia">
+      <h3>Social Media</h3>
+      <a href="http://www.twitter.com/ahead123"><i class="fa fa-twitter fa-2x"></i></a>
+      <a href="http://www.linkedin.com/in/arthurhead"><i class="fa fa-linkedin fa-2x"></i></a>
+      <a href="http://www.github.com/ahead123"><i class="fa fa-github fa-2x"></i></a>
+      <a href="https://plus.google.com/+ArthurHead/about"><i class="fa fa-google-plus fa-2x"></i></a> 
+    </div>
+    <div id="bottomStuff"><a href="#nav"><p>back to top<br><i class="fa fa-angle-up fa-1x"></i></p></a></div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="../script.js"></script>
+
+
+</body>
+</html>
