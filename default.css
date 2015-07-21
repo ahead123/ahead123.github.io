@@ -158,8 +158,9 @@ div#contact p {
 }
 
 div#contact form {
-	width: 700px;
+	width: 60%;
 	margin: 0 auto;
+	text-align: center;
 }
 
 div#contact form input {
@@ -303,5 +304,41 @@ footer {
 
 }
 
+@media all and (max-width: 1100px) {
+
+	div.brand {
+		margin-left: 0!important;
+		float: none!important;
+	}
+
+	div.brand > p {
+		text-align: center!important;
+	}
+
+	nav > ul.navList {
+		float: none!important;
+		position: relative!important;
+		text-align: center!important;
+		margin-left: 0px!important;
+		top: 0px!important;
+		right: 0px!important;
+	}
+
+	nav > ul.navList > li {
+		float: none!important;
+	}
+
+	header {
+		height: 100%!important;
+	}
+}
+
+@media all and (max-width: 800px){
+
+	div#contact form {
+		width: 90%!important;
+	}
+
+}
 
 
