@@ -365,7 +365,17 @@ footer {
 	}
 
 	footer {
-		font-size: 1.6em!important;
+		font-size: 1.4em!important;
+	}
+
+	#location {
+		margin: 0 auto!important;
+		width: 90%!important;
+	}
+
+	#socialMedia {
+		margin: 0 auto!important;
+		width: 90%!important;
 	}
 
 }
