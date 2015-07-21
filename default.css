@@ -322,6 +322,7 @@ footer {
 		margin-left: 0px!important;
 		top: 0px!important;
 		right: 0px!important;
+		font-size: 1.7em!important;
 	}
 
 	nav > ul.navList > li {
@@ -331,12 +332,40 @@ footer {
 	header {
 		height: 100%!important;
 	}
+
+
 }
 
 @media all and (max-width: 800px){
 
 	div#contact form {
 		width: 90%!important;
+		font-size: 1.5em!important;
+	}
+
+	div.brand {
+		font-size: 20px!important;
+	}
+
+	main {
+		height: 100%!important;
+	}
+
+	div#imageText {
+		font-size: 1.5em!important;
+	}
+
+	div.project {
+		font-size: 1.7em!important;
+	}
+
+	div#contact form button {
+	  font-size: 1.5em!important;
+	  margin-top: 20px!important;
+	}
+
+	footer {
+		font-size: 1.6em!important;
 	}
 
 }
