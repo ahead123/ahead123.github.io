@@ -375,6 +375,14 @@ footer {
 	color: #d35400;
 }
 
+.fa-mars-stroke-v {
+	color: #3498db;
+}
+
+.fa-circle-o {
+	color: #f39c12;
+}
+
 #bottomStuff {
 	clear: both; 
 	text-align: center;
